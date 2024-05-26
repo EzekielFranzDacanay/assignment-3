@@ -13,6 +13,7 @@ print("Array2 saved to 'array2.npy'")
 np.savez('arrays_compressed.npz', array1=arrayno1, array2=arrayno2, array3=arrayno3)
 print("Arrays saved to 'arrays_compressed.npz'")
 
+#loading the arrays
 loaded_array1 = np.loadtxt('array1.txt', delimiter=',')
 print("\nLoaded array1 from 'array1.txt':\n", loaded_array1)
 
